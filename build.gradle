@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'org.mdbuck'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+    testImplementation("org.assertj:assertj-core:3.18.1")
+}
+
+task cleanJlink(type: Delete) {
+    description "Deletes the jlink's output directory."
+    delete "$buildDir/app"
+}
+
+task jlink(type: Exec) {
+    description "Generates the 'ded' executable."
+    dependsOn cleanJlink, build
+    executable "jlink"
+    args = [
+            "--module-path", "\"%JAVA_HOME%/jmods;$sourceSets.main.java.outputDir\"",
+            "--add-modules", "com.mdbuck.delemptydirs",
+            "--output", "\"$buildDir/app\"",
+            "--launcher", "ded=com.mdbuck.delemptydirs/com.mdbuck.delemptydirs.DelEmptyDirs",
+            "--no-header-files"
+    ]
+}

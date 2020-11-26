@@ -1,0 +1,555 @@
+2020-11-25T18:17:39.191-0500 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: C:\Users\MIchael Buck\.gradle\native
+2020-11-25T18:17:39.328-0500 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   https://docs.gradle.org/6.5/userguide/logging.html#sec:debug_security
+#############################################################################
+
+2020-11-25T18:17:39.358-0500 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2020-11-25T18:17:39.641-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build e546a930-b7c9-420f-8a4c-c65756f61061 in daemon client {pid=9832}
+2020-11-25T18:17:39.708-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2020-11-25T18:17:39.710-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2020-11-25T18:17:39.712-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2020-11-25T18:17:39.713-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2020-11-25T18:17:39.713-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2020-11-25T18:17:39.715-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.715-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2020-11-25T18:17:39.716-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.717-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2020-11-25T18:17:39.721-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.721-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2020-11-25T18:17:39.723-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.723-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2020-11-25T18:17:39.724-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.724-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller
+2020-11-25T18:17:39.726-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.726-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.1.108
+2020-11-25T18:17:39.726-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:a116:2124:ac3e:e68a%eth3
+2020-11-25T18:17:39.726-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2020-11-25T18:17:39.727-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.727-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2020-11-25T18:17:39.729-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.729-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2020-11-25T18:17:39.730-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.730-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2020-11-25T18:17:39.732-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.732-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2020-11-25T18:17:39.734-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.742-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2020-11-25T18:17:39.744-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.744-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2020-11-25T18:17:39.746-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.746-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2020-11-25T18:17:39.747-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.747-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2020-11-25T18:17:39.749-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.749-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+2020-11-25T18:17:39.750-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.750-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2020-11-25T18:17:39.752-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.752-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2020-11-25T18:17:39.753-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.753-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2020-11-25T18:17:39.755-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.755-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2020-11-25T18:17:39.756-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.756-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2020-11-25T18:17:39.757-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.757-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2020-11-25T18:17:39.759-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.759-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2020-11-25T18:17:39.760-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2020-11-25T18:17:39.769-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2020-11-25T18:17:39.772-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-11-25T18:17:39.777-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-11-25T18:17:39.783-0500 [INFO] [org.gradle.launcher.daemon.client.DefaultDaemonConnector] Found daemon DaemonInfo{pid=17000, address=[88649213-e233-475d-8b98-3e9133a8a749 port:59479, addresses:[/127.0.0.1]], state=Idle, lastBusy=1606341515633, context=DefaultDaemonContext[uid=fb5dc613-6194-4074-bb39-026eb45ea7e6,javaHome=C:\Program Files\Java\jdk1.8.0_121,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=17000,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=9832,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=fb5dc613-6194-4074-bb39-026eb45ea7e6,javaHome=C:\Program Files\Java\jdk1.8.0_121,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=17000,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+2020-11-25T18:17:39.784-0500 [INFO] [org.gradle.launcher.daemon.client.DefaultDaemonConnector] Found daemon DaemonInfo{pid=13204, address=[03009aae-b0ab-4c80-b1a1-4174d9bbd8bc port:58123, addresses:[/127.0.0.1]], state=Idle, lastBusy=1606325960997, context=DefaultDaemonContext[uid=72bd7073-443d-4d03-b620-42ddcc81a93d,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=13204,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:58118,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=9832,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=72bd7073-443d-4d03-b620-42ddcc81a93d,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=13204,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:58118,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+2020-11-25T18:17:39.787-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Attempting to connect to [3fc93ca9-1bd0-42db-9be6-4b3d93673076 port:59426, addresses:[/127.0.0.1]].
+2020-11-25T18:17:39.787-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Trying to connect to address /127.0.0.1.
+2020-11-25T18:17:39.792-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Connected to address /127.0.0.1:59426.
+2020-11-25T18:17:39.820-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Connected to daemon DaemonInfo{pid=11896, address=[3fc93ca9-1bd0-42db-9be6-4b3d93673076 port:59426, addresses:[/127.0.0.1]], state=Idle, lastBusy=1606346177932, context=DefaultDaemonContext[uid=9cf2a6e3-e005-4a69-9787-e30e3dc97ed0,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=11896,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=e546a930-b7c9-420f-8a4c-c65756f61061, currentDir=C:\projects\github\del-empty-dirs}.
+2020-11-25T18:17:39.821-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Build
+2020-11-25T18:17:39.831-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result org.gradle.launcher.daemon.protocol.BuildStarted@7cbc3762 from daemon DaemonInfo{pid=11896, address=[3fc93ca9-1bd0-42db-9be6-4b3d93673076 port:59426, addresses:[/127.0.0.1]], state=Idle, lastBusy=1606346177932, context=DefaultDaemonContext[uid=9cf2a6e3-e005-4a69-9787-e30e3dc97ed0,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=11896,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+2020-11-25T18:17:39.832-0500 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 11896). The daemon log file: C:\Users\MIchael Buck\.gradle\daemon\6.5\daemon-11896.out.log
+2020-11-25T18:17:39.833-0500 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 45th build in daemon [uptime: 1 hrs 21 mins 1.887 secs, performance: 100%, non-heap usage: 34% of 268.4 MB]
+2020-11-25T18:17:39.833-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2020-11-25T18:17:39.833-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9cf2a6e3-e005-4a69-9787-e30e3dc97ed0,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=11896,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2020-11-25T18:17:39.834-0500 [INFO] [org.gradle.internal.work.DefaultWorkerLeaseService] Using 6 worker leases.
+2020-11-25T18:17:39.837-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for fileHashes, path C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes\fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@30c369f5
+2020-11-25T18:17:39.837-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes)
+2020-11-25T18:17:39.838-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes).
+2020-11-25T18:17:39.839-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes).
+2020-11-25T18:17:39.841-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' started
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 started (1 worker(s) in use).
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: acquired lock on root.1
+2020-11-25T18:17:39.842-0500 [INFO] [org.gradle.internal.buildevents.BuildLogger] Starting Build
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Gradle user home: C:\Users\MIchael Buck\.gradle
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Current dir: C:\projects\github\del-empty-dirs
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Settings file: null
+2020-11-25T18:17:39.842-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Build file: null
+2020-11-25T18:17:39.843-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' started
+2020-11-25T18:17:39.845-0500 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found env project properties: []
+2020-11-25T18:17:39.845-0500 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found system project properties: []
+2020-11-25T18:17:39.845-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' started
+2020-11-25T18:17:39.847-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for workingDirs, path C:\projects\github\del-empty-dirs\.gradle\6.5\vcsMetadata-1\workingDirs.bin, access org.gradle.cache.internal.DefaultCacheAccess@665c93b1
+2020-11-25T18:17:39.848-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for resourceHashesCache, path C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes\resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@30c369f5
+2020-11-25T18:17:39.849-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for md5-checksums, path C:\projects\github\del-empty-dirs\.gradle\checksums\md5-checksums.bin, access org.gradle.cache.internal.DefaultCacheAccess@76277efd
+2020-11-25T18:17:39.849-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for checksums cache (C:\projects\github\del-empty-dirs\.gradle\checksums)
+2020-11-25T18:17:39.850-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on checksums cache (C:\projects\github\del-empty-dirs\.gradle\checksums).
+2020-11-25T18:17:39.850-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on checksums cache (C:\projects\github\del-empty-dirs\.gradle\checksums).
+2020-11-25T18:17:39.850-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for sha1-checksums, path C:\projects\github\del-empty-dirs\.gradle\checksums\sha1-checksums.bin, access org.gradle.cache.internal.DefaultCacheAccess@76277efd
+2020-11-25T18:17:39.851-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for sha256-checksums, path C:\projects\github\del-empty-dirs\.gradle\checksums\sha256-checksums.bin, access org.gradle.cache.internal.DefaultCacheAccess@76277efd
+2020-11-25T18:17:39.851-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for sha512-checksums, path C:\projects\github\del-empty-dirs\.gradle\checksums\sha512-checksums.bin, access org.gradle.cache.internal.DefaultCacheAccess@76277efd
+2020-11-25T18:17:39.852-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for md-supplier, path C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier\md-supplier.bin, access org.gradle.cache.internal.DefaultCacheAccess@326c0f66
+2020-11-25T18:17:39.853-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-supplier (C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier)
+2020-11-25T18:17:39.854-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-supplier (C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier).
+2020-11-25T18:17:39.854-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-supplier (C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier).
+2020-11-25T18:17:39.855-0500 [DEBUG] [org.gradle.api.internal.artifacts.mvnsettings.DefaultLocalMavenRepositoryLocator] No local repository in Settings file defined. Using default path: C:\Users\MIchael Buck\.m2\repository
+2020-11-25T18:17:39.856-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for md-rule, path C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule\md-rule.bin, access org.gradle.cache.internal.DefaultCacheAccess@c0dc4fa
+2020-11-25T18:17:39.857-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-rule (C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule)
+2020-11-25T18:17:39.857-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-rule (C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule).
+2020-11-25T18:17:39.858-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-rule (C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule).
+2020-11-25T18:17:39.858-0500 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: C:\projects\github\del-empty-dirs\gradle\dependency-locks
+2020-11-25T18:17:39.859-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script settings.gradle to settings 'del-empty-dirs'' started
+2020-11-25T18:17:39.860-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply script settings.gradle to settings 'del-empty-dirs''
+2020-11-25T18:17:39.860-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script settings.gradle to settings 'del-empty-dirs'' completed
+2020-11-25T18:17:39.860-0500 [DEBUG] [org.gradle.initialization.ScriptEvaluatingSettingsProcessor] Timing: Processing settings took: 0.014 secs
+2020-11-25T18:17:39.860-0500 [INFO] [org.gradle.internal.buildevents.BuildLogger] Settings evaluated using settings file 'C:\projects\github\del-empty-dirs\settings.gradle'.
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.caching.configuration.internal.DefaultBuildCacheConfiguration] Found class org.gradle.caching.local.internal.DirectoryBuildCacheServiceFactory registered for class org.gradle.caching.local.DirectoryBuildCache
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' started
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Finalize build cache configuration'
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' completed
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Evaluate settings'
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' completed
+2020-11-25T18:17:39.861-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load build'
+2020-11-25T18:17:39.862-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' completed
+2020-11-25T18:17:39.862-0500 [DEBUG] [org.gradle.initialization.buildsrc.BuildSourceBuilder] Gradle source dir does not exist. We leave.
+2020-11-25T18:17:39.862-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' started
+2020-11-25T18:17:39.862-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' started
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' from state Registered to Created
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: acquired lock on :
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Discovered.
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Created.
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: released lock on :
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: C:\projects\github\del-empty-dirs\gradle.properties
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+2020-11-25T18:17:39.863-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load projects'
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' completed
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' started
+2020-11-25T18:17:39.864-0500 [INFO] [org.gradle.internal.buildevents.BuildLogger] Projects loaded. Root project using build file 'C:\projects\github\del-empty-dirs\build.gradle'.
+2020-11-25T18:17:39.864-0500 [INFO] [org.gradle.internal.buildevents.BuildLogger] Included projects: [root project 'del-empty-dirs']
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify projectsLoaded listeners'
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' completed
+2020-11-25T18:17:39.864-0500 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] 
+2020-11-25T18:17:39.864-0500 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] > Configure project :
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' started
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: acquired lock on :
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' started
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify beforeEvaluate listeners of :'
+2020-11-25T18:17:39.864-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' completed
+2020-11-25T18:17:39.865-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.865-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' started
+2020-11-25T18:17:39.865-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :help'
+2020-11-25T18:17:39.865-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' completed
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' started
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :projects'
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' completed
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' started
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :tasks'
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' completed
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' started
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :properties'
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' completed
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' started
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencyInsight'
+2020-11-25T18:17:39.866-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' completed
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' started
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencies'
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' completed
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' started
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildEnvironment'
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' completed
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' started
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :components'
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' completed
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' started
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :model'
+2020-11-25T18:17:39.867-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' completed
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' started
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependentComponents'
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' completed
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :outgoingVariants' started
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :outgoingVariants'
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :outgoingVariants' completed
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.help-tasks to root project 'del-empty-dirs''
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :prepareKotlinBuildScriptModel' started
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :prepareKotlinBuildScriptModel'
+2020-11-25T18:17:39.868-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :prepareKotlinBuildScriptModel' completed
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.build-init to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' started
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :init'
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' completed
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.build-init to root project 'del-empty-dirs''
+2020-11-25T18:17:39.869-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.build-init to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.wrapper to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' started
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :wrapper'
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' completed
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.wrapper to root project 'del-empty-dirs''
+2020-11-25T18:17:39.870-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.wrapper to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.870-0500 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating root project 'del-empty-dirs' using build file 'C:\projects\github\del-empty-dirs\build.gradle'.
+2020-11-25T18:17:39.871-0500 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: C:\projects\github\del-empty-dirs\gradle\dependency-locks
+2020-11-25T18:17:39.871-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.874-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.874-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.874-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.875-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.875-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.875-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Compile script build.gradle (CLASSPATH)' started
+2020-11-25T18:17:39.876-0500 [INFO] [org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler] Compiling build file 'C:\projects\github\del-empty-dirs\build.gradle' using SubsetScriptTransformer.
+2020-11-25T18:17:39.893-0500 [DEBUG] [org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler] Timing: Writing script to cache at C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef\cp_proj took: 0.017 secs
+2020-11-25T18:17:39.893-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Compile script build.gradle (CLASSPATH)'
+2020-11-25T18:17:39.893-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Compile script build.gradle (CLASSPATH)' completed
+2020-11-25T18:17:39.894-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.895-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.895-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.898-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cp_proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\cp_proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.899-0500 [DEBUG] [org.gradle.api.internal.initialization.loadercache.DefaultClassLoaderCache] Releasing previous classloader for ClassLoaderScopeIdentifier.Id{coreAndPlugins:settings:C:\projects\github\del-empty-dirs\buildSrc:groovy-dsl:C:\projects\github\del-empty-dirs\build.gradle:ProjectScript(local)}
+2020-11-25T18:17:39.905-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.java to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.905-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :clean' started
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :clean'
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :clean' completed
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assemble' started
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :assemble'
+2020-11-25T18:17:39.906-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assemble' completed
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :check' started
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :check'
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :check' completed
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :build' started
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :build'
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :build' completed
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'del-empty-dirs''
+2020-11-25T18:17:39.907-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.909-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for outputFiles, path C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup\outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@7140f0ce
+2020-11-25T18:17:39.909-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for Build Output Cleanup Cache (C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup)
+2020-11-25T18:17:39.910-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on Build Output Cleanup Cache (C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup).
+2020-11-25T18:17:39.910-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on Build Output Cleanup Cache (C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup).
+2020-11-25T18:17:39.911-0500 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: C:\projects\github\del-empty-dirs\gradle\dependency-locks
+2020-11-25T18:17:39.911-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.911-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.911-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.911-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'del-empty-dirs''
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'del-empty-dirs''
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.912-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildNeeded' started
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildNeeded'
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildNeeded' completed
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildDependents' started
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildDependents'
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildDependents' completed
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'del-empty-dirs''
+2020-11-25T18:17:39.913-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.914-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.915-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processResources' started
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :processResources'
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processResources' completed
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileJava' started
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :compileJava'
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileJava' completed
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :classes' started
+2020-11-25T18:17:39.916-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :classes'
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :classes' completed
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.917-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.918-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processTestResources' started
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :processTestResources'
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processTestResources' completed
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileTestJava' started
+2020-11-25T18:17:39.919-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :compileTestJava'
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileTestJava' completed
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :testClasses' started
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :testClasses'
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :testClasses' completed
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.920-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :test' started
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :test'
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :test' completed
+2020-11-25T18:17:39.921-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :javadoc' started
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :javadoc'
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :javadoc' completed
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :jar' started
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :jar'
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :jar' completed
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.922-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.923-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.924-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.925-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.926-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.927-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.928-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.java to root project 'del-empty-dirs''
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.java to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.application to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.distribution.plugins.DistributionPlugin to root project 'del-empty-dirs'' started
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:39.929-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :distZip' started
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :distZip'
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :distZip' completed
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :distTar' started
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :distTar'
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :distTar' completed
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :installDist' started
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :installDist'
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :installDist' completed
+2020-11-25T18:17:39.930-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assembleDist' started
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :assembleDist'
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assembleDist' completed
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.distribution.plugins.DistributionPlugin to root project 'del-empty-dirs''
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.distribution.plugins.DistributionPlugin to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :run' started
+2020-11-25T18:17:39.931-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :run'
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :run' completed
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :startScripts' started
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :startScripts'
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :startScripts' completed
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.application to root project 'del-empty-dirs''
+2020-11-25T18:17:39.932-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.application to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:39.935-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.935-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.935-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.936-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.936-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.936-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Compile script build.gradle (BODY)' started
+2020-11-25T18:17:39.937-0500 [INFO] [org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler] Compiling build file 'C:\projects\github\del-empty-dirs\build.gradle' using BuildScriptTransformer.
+2020-11-25T18:17:39.967-0500 [DEBUG] [org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler] Timing: Writing script to cache at C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef\proj took: 0.031 secs
+2020-11-25T18:17:39.968-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Compile script build.gradle (BODY)'
+2020-11-25T18:17:39.968-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Compile script build.gradle (BODY)' completed
+2020-11-25T18:17:39.969-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.970-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.970-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.993-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on proj generic class cache for build file 'C:\projects\github\del-empty-dirs\build.gradle' (C:\Users\MIchael Buck\.gradle\caches\6.5\scripts\xbvl5ku9tag81tsgr2vf92fj\proj6418c6d726070f323dbddda2aadc82ef).
+2020-11-25T18:17:39.994-0500 [DEBUG] [org.gradle.api.internal.initialization.loadercache.DefaultClassLoaderCache] Releasing previous classloader for ClassLoaderScopeIdentifier.Id{coreAndPlugins:settings:C:\projects\github\del-empty-dirs\buildSrc:root-project:groovy-dsl:C:\projects\github\del-empty-dirs\build.gradle:ProjectScript(local)}
+2020-11-25T18:17:40.000-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :test' started
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:40.001-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:40.002-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:40.002-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :test'
+2020-11-25T18:17:40.002-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :test' completed
+2020-11-25T18:17:40.005-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :jlink' started
+2020-11-25T18:17:40.005-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :jlink'
+2020-11-25T18:17:40.005-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :jlink' completed
+2020-11-25T18:17:40.005-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :build' started
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' started
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute container callback action'
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute container callback action' completed
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :build'
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :build' completed
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :cleanJlink' started
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :cleanJlink'
+2020-11-25T18:17:40.006-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :cleanJlink' completed
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :cleanJlink' started
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :cleanJlink'
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :cleanJlink' completed
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply script build.gradle to root project 'del-empty-dirs''
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project 'del-empty-dirs'' completed
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.137 secs
+2020-11-25T18:17:40.008-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' started
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' started
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute Project.afterEvaluate listener'
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' completed
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify afterEvaluate listeners of :'
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' completed
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: released lock on :
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure project :'
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' completed
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure build'
+2020-11-25T18:17:40.009-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' completed
+2020-11-25T18:17:40.010-0500 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 completed (0 worker(s) in use)
+2020-11-25T18:17:40.010-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 15: released lock on root.1
+2020-11-25T18:17:40.012-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Run build'
+2020-11-25T18:17:40.012-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' completed
+2020-11-25T18:17:40.015-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-supplier (C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier)
+2020-11-25T18:17:40.015-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-supplier (C:\Users\MIchael Buck\.gradle\caches\6.5\md-supplier).
+2020-11-25T18:17:40.016-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Build Output Cleanup Cache (C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup)
+2020-11-25T18:17:40.016-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Build Output Cleanup Cache (C:\projects\github\del-empty-dirs\.gradle\buildOutputCleanup).
+2020-11-25T18:17:40.017-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-rule (C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule)
+2020-11-25T18:17:40.017-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-rule (C:\Users\MIchael Buck\.gradle\caches\6.5\md-rule).
+2020-11-25T18:17:40.017-0500 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 0 resolution results binary files in 0.0 secs
+2020-11-25T18:17:40.018-0500 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+2020-11-25T18:17:40.018-0500 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+2020-11-25T18:17:40.018-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes)
+2020-11-25T18:17:40.018-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\projects\github\del-empty-dirs\.gradle\6.5\fileHashes).
+2020-11-25T18:17:40.019-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for checksums cache (C:\projects\github\del-empty-dirs\.gradle\checksums)
+2020-11-25T18:17:40.019-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on checksums cache (C:\projects\github\del-empty-dirs\.gradle\checksums).
+2020-11-25T18:17:40.019-0500 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] VCS Checkout Cache (C:\projects\github\del-empty-dirs\.gradle\vcs-1) has last been fully cleaned up 7 hours ago
+2020-11-25T18:17:40.019-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache VCS Checkout Cache (C:\projects\github\del-empty-dirs\.gradle\vcs-1) was closed 0 times.
+2020-11-25T18:17:40.020-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache VCS metadata (C:\projects\github\del-empty-dirs\.gradle\6.5\vcsMetadata-1) was closed 0 times.
+2020-11-25T18:17:40.036-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2020-11-25T18:17:40.148-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientInputForwarder] Dispatching close input message: org.gradle.launcher.daemon.protocol.CloseInput@120d2a0
+2020-11-25T18:17:40.149-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.CloseInput
+2020-11-25T18:17:40.150-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result Success[value=org.gradle.launcher.exec.BuildActionResult@63fdab07] from daemon DaemonInfo{pid=11896, address=[3fc93ca9-1bd0-42db-9be6-4b3d93673076 port:59426, addresses:[/127.0.0.1]], state=Idle, lastBusy=1606346177932, context=DefaultDaemonContext[uid=9cf2a6e3-e005-4a69-9787-e30e3dc97ed0,javaHome=C:\Program Files\Java\jdk-11.0.8,daemonRegistryDir=C:\Users\MIchael Buck\.gradle\daemon,pid=11896,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
+2020-11-25T18:17:40.150-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Finished
+2020-11-25T18:17:40.150-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: connection stop
+2020-11-25T18:17:40.152-0500 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   https://docs.gradle.org/6.5/userguide/logging.html#sec:debug_security
+#############################################################################
+
